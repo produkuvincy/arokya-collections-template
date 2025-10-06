@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: arokya-collections
+    env: node
+    region: singapore
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: RP_KEY_ID
+        sync: false
+      - key: RP_KEY_SECRET
+        sync: false

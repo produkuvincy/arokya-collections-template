@@ -1,17 +1,15 @@
 {
   "name": "arokya-collections",
   "version": "1.0.0",
-  "description": "E-commerce site for ladies accessories — hair clips, bangles, earrings, bracelets, neck pieces",
+  "description": "Arokya Collections - demo e-commerce site",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "keywords": ["ecommerce", "fashion", "accessories", "razorpay", "nodejs"],
-  "author": "Arokya Collections",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.19.0",
-    "razorpay": "^2.9.0"
+    "razorpay": "^2.9.0",
+    "body-parser": "^1.20.2"
   }
 }

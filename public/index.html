@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Arokya Collections — Accessories</title>
+  <link rel="stylesheet" href="/static/css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Arokya Collections</h1>
+    <div id="cart-btn">Cart (<span id="cart-count">0</span>)</div>
+  </header>
+  <main>
+    <section id="products" class="grid"></section>
+    <aside id="cart-panel" class="hidden">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <div class="cart-summary">
+        <div>Subtotal: ₹ <span id="cart-subtotal">0.00</span></div>
+        <button id="checkout-btn" class="primary">Checkout</button>
+      </div>
+      <button id="close-cart" class="link">Close</button>
+    </aside>
+  </main>
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <script src="/static/js/store.js"></script>
+</body>
+</html>
